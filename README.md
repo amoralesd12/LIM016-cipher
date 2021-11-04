@@ -2,10 +2,10 @@
 
 ## Índice
 
-* [1. INTRODUCCION](#1-preámbulo)
+* [1. INTRODUCCION](#1-introduccion)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Características del Proyecto](#3-caracteristicas-del-proyecto)
-* [4. Funcionalidad del Proyecto](#4-funcionalidad)
+* [4. Funcionalidad del Proyecto](#4-funcionalidad-del-proyecto)
 * [5. Prototipos](#5-prototipos)
 * [6. Diseño](#6-diseño)
 * [7. Interfaz de Usuario](#7-interfaz-de-usuario)
