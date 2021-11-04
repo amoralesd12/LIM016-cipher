@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cifrado de Cesar</title>
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+
+    <nav>
+      <ul>
+          <li>&#9829<a href="index.html"> Inicio</a></li>
+          <li>&#9829<a href="#"> Escribe tu mensaje!</a></li>
+    
+      </ul>
+  </nav>
+
+
+      <!-- CONTENEDOR DEL CIFRADO-->
+
+    <section id="contenedorCifrado" class="contenedor">
+      <!--Cabecera-->
+      <header  class="contenedorCabecera">
+            <h1>Cifrado "JUNTOS"</h1>
+            <p><i>Cifra y Descrifra tus mensajes claves!</i></p>
+        </header>
+
+        <!--ENLACES CODIFICADO Y DECODIFICADO-->
+
+        <div id="codificar-decodificar" class="link-codificado">
+              <a href="#" id="link-codificar" class="link_activar">Codificar</a>
+              <a href="#" id="link-decodificar">Decodificar</a>
+        </div>
+
+        <!--CAJA CODIFICADO-->
+
+       <div id="contenedorMensajeCodificar" class="estiloMensaje display_block">
+           <p> Ingrese su mensaje:</p>
+           <textarea id="cajaMensajeCodificar" class="cajaEstiloMensaje" placeholder="Escribe tu mensaje..."></textarea>
+           <div class="contenedor-offset">
+               <label class="label">Ingrese N° de desplazamiento</label>
+               <input type="number" id="numeroDeOffset_c" class="numeroDeOffset_estilo">
+           </div>
+           <button id="botonCodificado" class="botonCodificar">Codifica tu Mensaje</button>
+           <div id="mensajeCodificar" class="mensajeChequear">
+               <p id="mensajeCodificarChequear"></p>
+           </div>
+           <button onclick="location.reload();" class="botonCargarNuevamente">Limpiar</button>
+           <button id="copiador" class="botonCopiar">Copiar</button>
+       </div>
+
+       <!--CAJA DECODIFICADO-->
+
+        <div id="contenedorMensajeDecodificar" class="estiloMensaje display_none">
+            <p>Ingrese Su Mensaje:</p>
+            <textarea id="cajaMensajeDecodificar" class="cajaEstiloMensaje" placeholder="Escribe tu mensaje..."></textarea>
+            <div class="contenedor-offset">
+                <label class="label">Ingrese N° de desplazamiento</label>
+                <input type="number" id="numeroDeOffset_d" class="numeroDeOffset_estilo">
+            </div>
+            <button id="botonDecodificado" class="botonCodificar">Decodifica tu Mensaje</button>
+            <div id="mensajeDecodificar" class="mensajeChequear">
+                <p id="mensajeDecodificarChequear"></p>
+            </div>
+            <button onclick="location.reload();" class="botonCargarNuevamente">Limpiar</button>
+            <button id="copiador2" class = "botonCopiar"> Copiar</button>
+         </div>
+
+       </section>
+
+     <!--¡¡¡¡¡¡ESTE ARCHIVO NO SE TOCA!!!!!-->
+     <div id="root"></div>
+     <script src="cipher.js"></script>
+     <script src="index.js"></script>
+
+  <footer>
+    <br><br>  Anna Morales WEB creada con fines académicos &copy; 2021 <br><br>
+              <a href="https://www.instagram.com/anna.morales.16/?hl=es"><img src="imagenes/instagram.png" alt="Instagram"style="width:30px;height: 30px;"></a>
+              <a href="https://www.facebook.com/anna.morales.16"><img src="imagenes/facebook.png" alt="Instagram"style="width:30px;height: 30px;"></a>
+              <a href="https://github.com/amoralesd12"><img src="imagenes/github.png" alt="Github"style="width:30px;height: 30px;"></a>
+
+  </footer>
+
+    </body>
+</html>

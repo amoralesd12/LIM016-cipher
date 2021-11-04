@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #FFB085;
+    font-family:"Rancho", serif;
+    font-size: 25px;
+    text-shadow: 4px 4px 4px #aaa ;
+    
+}
+
+#container{
+    width: 100%;
+    margin: 0px auto;
+    border: 2px solid indianred;
+    border-bottom: indianred;
+}
+
+header{
+    background: #474B4E  ; 
+    background-image: url("imagenes/manoslevantadas.jpg");
+    height: 100px;
+    width: 100%;
+    padding:80px;
+    text-align: center;
+    color:ivory; 
+    border-bottom: 3px dashed lightgray;
+     
+}
+
+nav{
+    background: #FEFBF3 ;
+    height: 70px;
+    
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+   padding-left: 40px;
+   padding-top: 10px;
+   color:crimson;
+   
+}
+
+.clearfix{
+    clear: both;
+}
+
+#content{
+    float: right;
+    width:calc(80% - 80px);
+    min-height: 500px;
+    padding: 40px;
+    text-align: center;
+}
+
+article{
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+   
+}
+
+article :first-child{
+    padding: 8px;
+    text-align: center;
+}
+
+aside{
+    float:left;
+    width: calc(20% - 20px);
+    height: 700px;
+    background: #F8F0DF;
+    padding: 10px;
+    padding-top: 40px;    
+}
+
+footer{
+    background: #A03C78  ;
+    color:lightyellow;
+    text-align: center;
+    height: 50px;
+    line-height: 8px;
+    padding:40px;
+
+   
+}
