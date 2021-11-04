@@ -48,11 +48,15 @@ El proyecto utiliza el método de cifrado César, es un tipo de cifrado por sust
     
    Inicial
 
-     ![](./src/imagenes/prototipo1.jpeg)
+   <p align="center">
+    <img width="150" height="150" src="src/imagenes/prototipo1.jpeg">
+   </p>
+
+     ![](src/imagenes/prototipo1.jpeg)
 
    Final
 
-     ![](./src/imagenes/prototipo2.jpeg)
+     ![](src/imagenes/prototipo2.jpeg)
 
 
 ## 6. Diseño
