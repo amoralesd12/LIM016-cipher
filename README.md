@@ -49,14 +49,14 @@ El proyecto utiliza el método de cifrado César, es un tipo de cifrado por sust
    Inicial
 
    <p align="center">
-    <img width="611" height="1080" src="src/imagenes/prototipo1.jpeg">
+    <img width="411" height="880" src="src/imagenes/prototipo1.jpeg">
    </p>
 
      
    Final
 
   <p align="center">
-    <img width="1069" height="502" src="src/imagenes/prototipo2.jpeg">
+    <img width="869" height="302" src="src/imagenes/prototipo2.jpeg">
    </p>
 
 
